@@ -65,3 +65,15 @@ $ clip < ~/.ssh/id_rsa.pub
 
 git pull origin main
 
+to find diff
+git diff test.txt
+git diff 
+
+satgged file diff 
+git diff --staged test.txt
+
+to unstage file 
+git reset test.txt
+
+git checkout test.txt :- to go to old commit
+for present directory :- git checkout .
