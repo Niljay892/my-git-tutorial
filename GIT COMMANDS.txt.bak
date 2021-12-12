@@ -1,6 +1,8 @@
 GIT COMMANDS
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems). Git was created by Linus Torvalds in 2005
 
+git has three layers
+working area - staging area(git add .) - commit (git commit -m)
 git --version
 
 git status
@@ -31,3 +33,5 @@ fatal: unable to auto-detect email address (got 'nitis@LAPTOP-42GI1SA5.(none)')
 
 
 git log
+
+
