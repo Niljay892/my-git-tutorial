@@ -74,3 +74,32 @@ git diff --staged test.txt
 
 to unstage file 
 git reset test.txt
+
+git checkout test.txt :- to go to old commit
+for present directory :- git checkout .
+
+staging
+git add -A :- stages all
+git add . stages new and modified ,without deleted
+git add -u stages modified and deleted , without new
+
+
+cloning a git repository
+
+git clone git@github.com:Niljay892/my-git-tutorial.git :- it makes new folder 
+git clone git@github.com:Niljay892/my-git-tutorial.git . :- it makes repository.
+
+
+to ignore a file in git 
+touch .gitignore :- create this file.
+open .gitignore files
+##*.pyc : -these are compiled python files used for enhanchement
+to ignore files 
+add directly file name in file
+
+to untrack already checked in file 
+git rm --cached FILENAME
+
+to make global .gitignore
+git config --global core.excludesfile ~/.gitignore_global
+
