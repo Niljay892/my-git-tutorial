@@ -1,1 +1,30 @@
 GIT COMMANDS
+Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems). Git was created by Linus Torvalds in 2005
+
+git --version
+
+git status
+
+git init
+Initialized empty Git repository in D:/NILESH_STUDY_DOCUMENTS/.git/
+
+to bring to staging area 
+git add .
+
+git commit -m "gitdocs added"
+
+
+
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "komal.gupta892@gmail.com"
+  git config --global user.name "nilesh kumar"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'nitis@LAPTOP-42GI1SA5.(none)')
